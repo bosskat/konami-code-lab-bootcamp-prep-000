@@ -8,6 +8,7 @@ function init() {
     if(key === code[index]){
       index++;
       if(index === code.length){
+        alert("Konami!");
         index = 0;
       }
     } else {
@@ -16,6 +17,6 @@ function init() {
   }
 
   body.addEventListener('keydown', function(onKeyDownHandler){
-    alert("Konami!");
+    
   });
 }
