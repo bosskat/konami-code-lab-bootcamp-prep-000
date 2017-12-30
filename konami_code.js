@@ -5,7 +5,7 @@ function init() {
   const body = document.querySelector('body');
   function onKeyDownHandler(e){
     const key = parseInt(e.which || e.detail);
-    if(e.which === code[index]){
+    if(key === code[index]){
       index++;
       if(index === code.length){
         alert("Konami!");
