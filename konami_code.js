@@ -15,7 +15,7 @@ function init() {
     }
   }
   const body = document.querySelector('body');
-  body.addEventListener('keydown', function(onKeyDownHandler{
+  body.addEventListener('keydown', function(onKeyDownHandler){
     alert('done');
   });
 }
